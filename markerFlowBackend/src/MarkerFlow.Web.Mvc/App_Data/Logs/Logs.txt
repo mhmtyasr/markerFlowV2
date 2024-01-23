@@ -1,0 +1,209 @@
+DEBUG 2024-01-09 22:55:41,550 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-01-09 22:55:41,887 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-01-09 22:55:41,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MarkerFlow.Web.Startup.MarkerFlowWebMvcModule, MarkerFlow.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MarkerFlow.MarkerFlowWebCoreModule, MarkerFlow.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MarkerFlow.MarkerFlowApplicationModule, MarkerFlow.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MarkerFlow.MarkerFlowCoreModule, MarkerFlow.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MarkerFlow.EntityFrameworkCore.MarkerFlowEntityFrameworkModule, MarkerFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:41,904 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-01-09 22:55:42,004 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-01-09 22:55:42,004 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-01-09 22:55:42,004 [1    ] o.Configuration.LanguageManagementConfig - Converted MarkerFlow (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-01-09 22:55:42,004 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-01-09 22:55:42,279 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MarkerFlow.EntityFrameworkCore.MarkerFlowDbContext, MarkerFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-09 22:55:42,393 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-01-09 22:55:42,434 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-01-09 22:55:42,473 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-01-09 22:55:42,490 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MarkerFlow
+DEBUG 2024-01-09 22:55:42,515 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-01-09 22:55:42,521 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-01-09 22:55:42,527 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MarkerFlow.MultiTenancy.Tenant, MarkerFlow.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MarkerFlow.Authorization.Users.User, MarkerFlow.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-01-09 22:55:42,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2024-01-09 22:55:42,542 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.Users.Dto.CreateUserDto
+DEBUG 2024-01-09 22:55:42,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.Users.Dto.UserDto
+DEBUG 2024-01-09 22:55:42,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-01-09 22:55:42,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-01-09 22:55:42,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.Roles.Dto.PermissionDto
+DEBUG 2024-01-09 22:55:42,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-01-09 22:55:42,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.MultiTenancy.Dto.TenantDto
+DEBUG 2024-01-09 22:55:42,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2024-01-09 22:55:42,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MarkerFlow.Web.Models.Roles.EditRoleModalViewModel
+INFO  2024-01-09 22:55:45,412 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (179ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name"
+FROM "AbpEditions" AS a
+WHERE a."Name" = 'Standard'
+LIMIT 1
+INFO  2024-01-09 22:55:45,663 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (168ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:45,842 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (173ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:46,015 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (171ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:46,174 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (156ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:46,337 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (161ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:46,496 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (157ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:46,658 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (159ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:46,813 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (153ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:46,975 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (158ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:47,149 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (170ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:47,313 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (162ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:47,477 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (160ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:47,660 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (177ms) [Parameters=[@__language_Name_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpLanguages" AS a
+    WHERE a."TenantId" IS NULL AND a."Name" = @__language_Name_1)
+INFO  2024-01-09 22:55:47,833 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (160ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE a."TenantId" IS NULL AND a."Name" = 'Admin'
+LIMIT 1
+INFO  2024-01-09 22:55:48,013 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (148ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE a."Discriminator" = 'RolePermissionSetting' AND a."TenantId" IS NULL AND a."RoleId" = @__adminRoleForHost_Id_0
+INFO  2024-01-09 22:55:48,236 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (157ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."AuthenticationSource", t."ConcurrencyStamp", t."CreationTime", t."CreatorUserId", t."DeleterUserId", t."DeletionTime", t."EmailAddress", t."EmailConfirmationCode", t."IsActive", t."IsDeleted", t."IsEmailConfirmed", t."IsLockoutEnabled", t."IsPhoneNumberConfirmed", t."IsTwoFactorEnabled", t."LastModificationTime", t."LastModifierUserId", t."LockoutEndDateUtc", t."Name", t."NormalizedEmailAddress", t."NormalizedUserName", t."Password", t."PasswordResetCode", t."PhoneNumber", t."SecurityStamp", t."Surname", t."TenantId", t."UserName", a0."Id", a0."CreationTime", a0."CreatorUserId", a0."RoleId", a0."TenantId", a0."UserId"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+    FROM "AbpUsers" AS a
+    WHERE a."TenantId" IS NULL AND a."UserName" = 'admin'
+    LIMIT 1
+) AS t
+LEFT JOIN "AbpUserRoles" AS a0 ON t."Id" = a0."UserId"
+ORDER BY t."Id"
+INFO  2024-01-09 22:55:48,455 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (166ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" IS NULL AND a."UserId" IS NULL)
+INFO  2024-01-09 22:55:48,626 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (169ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" IS NULL AND a."UserId" IS NULL)
+INFO  2024-01-09 22:55:48,752 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (164ms) [Parameters=[@__Now_0='?' (DbType = DateTime), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."IsAbandoned", a."JobArgs", a."JobType", a."LastTryTime", a."NextTryTime", a."Priority", a."TryCount"
+FROM "AbpBackgroundJobs" AS a
+WHERE NOT (a."IsAbandoned") AND a."NextTryTime" <= @__Now_0
+ORDER BY a."Priority" DESC, a."TryCount", a."NextTryTime"
+LIMIT @__p_1
+INFO  2024-01-09 22:55:48,790 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (162ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "AbpSettings" AS a
+    WHERE a."Name" = @__name_0 AND a."TenantId" IS NULL AND a."UserId" IS NULL)
+INFO  2024-01-09 22:55:49,009 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (173ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConnectionString", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EditionId", a."IsActive", a."IsDeleted", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenancyName"
+FROM "AbpTenants" AS a
+WHERE a."TenancyName" = 'Default'
+LIMIT 1
+INFO  2024-01-09 22:55:49,210 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (183ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."Description", a."DisplayName", a."IsDefault", a."IsDeleted", a."IsStatic", a."LastModificationTime", a."LastModifierUserId", a."Name", a."NormalizedName", a."TenantId"
+FROM "AbpRoles" AS a
+WHERE a."TenantId" = @___tenantId_0 AND a."Name" = 'Admin'
+LIMIT 1
+INFO  2024-01-09 22:55:49,369 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (155ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT a."Name"
+FROM "AbpPermissions" AS a
+WHERE a."Discriminator" = 'RolePermissionSetting' AND a."TenantId" = @___tenantId_0 AND a."RoleId" = @__adminRole_Id_1
+INFO  2024-01-09 22:55:49,548 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (167ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."AuthenticationSource", t."ConcurrencyStamp", t."CreationTime", t."CreatorUserId", t."DeleterUserId", t."DeletionTime", t."EmailAddress", t."EmailConfirmationCode", t."IsActive", t."IsDeleted", t."IsEmailConfirmed", t."IsLockoutEnabled", t."IsPhoneNumberConfirmed", t."IsTwoFactorEnabled", t."LastModificationTime", t."LastModifierUserId", t."LockoutEndDateUtc", t."Name", t."NormalizedEmailAddress", t."NormalizedUserName", t."Password", t."PasswordResetCode", t."PhoneNumber", t."SecurityStamp", t."Surname", t."TenantId", t."UserName", a0."Id", a0."CreationTime", a0."CreatorUserId", a0."RoleId", a0."TenantId", a0."UserId"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."AuthenticationSource", a."ConcurrencyStamp", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."EmailAddress", a."EmailConfirmationCode", a."IsActive", a."IsDeleted", a."IsEmailConfirmed", a."IsLockoutEnabled", a."IsPhoneNumberConfirmed", a."IsTwoFactorEnabled", a."LastModificationTime", a."LastModifierUserId", a."LockoutEndDateUtc", a."Name", a."NormalizedEmailAddress", a."NormalizedUserName", a."Password", a."PasswordResetCode", a."PhoneNumber", a."SecurityStamp", a."Surname", a."TenantId", a."UserName"
+    FROM "AbpUsers" AS a
+    WHERE a."TenantId" = @___tenantId_0 AND a."UserName" = 'admin'
+    LIMIT 1
+) AS t
+LEFT JOIN "AbpUserRoles" AS a0 ON t."Id" = a0."UserId"
+ORDER BY t."Id"
+INFO  2024-01-09 22:55:49,945 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (168ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."DeleterUserId", a."DeletionTime", a."DisplayName", a."Icon", a."IsDeleted", a."IsDisabled", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId"
+FROM "AbpLanguages" AS a
+WHERE (@__ef_filter__p_0 OR NOT (a."IsDeleted")) AND (@__ef_filter__p_1 OR a."TenantId" IS NULL)
+INFO  2024-01-09 22:55:50,312 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (166ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."CreationTime", a."CreatorUserId", a."LastModificationTime", a."LastModifierUserId", a."Name", a."TenantId", a."UserId", a."Value"
+FROM "AbpSettings" AS a
+WHERE (@__ef_filter__p_0 OR a."TenantId" IS NULL) AND a."UserId" IS NULL AND a."TenantId" IS NULL
+INFO  2024-01-09 22:55:50,489 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+ERROR 2024-01-09 22:55:51,140 [1    ] crosoft.Extensions.Hosting.Internal.Host - Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor.
+ ---> System.Net.Sockets.SocketException (10048): Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)

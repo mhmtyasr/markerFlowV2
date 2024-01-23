@@ -1,0 +1,97 @@
+.virtualCard {
+  position: fixed;
+  opacity: 1;
+  background-color: rgba(255, 0, 0, 0.1);
+  height: 102px;
+  width: 358px;
+  /* z-index: 2147483647; */
+}
+
+.annotationCard {
+  position: fixed;
+  opacity: 1;
+  background-color: rgba(255, 0, 0, 0.1);
+  height: 30px;
+  width: 97px;
+}
+
+
+.markerFlow-cancel-button {
+  position: fixed;
+  bottom: 10px;
+  right: 50%;
+  width: 75px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.markerFlow-pointer-none{
+  pointer-events: none;
+}
+
+
+
+.inspector-element {
+  position: absolute;
+  pointer-events: none;
+  transition: all 200ms;
+  background-color: rgba(140, 146, 148, 0.288);
+  border: 1px solid rgb(66, 220, 200);
+  z-index: 21799999;
+}
+
+.markerFlow-avatar {
+  border-radius: 50% !important;
+  height: 24px !important;
+  width: 24px !important;
+  z-index: 99999999 !important;
+  position: absolute !important;
+  background: none !important;
+}
+
+.markerFlow-avatar> svg {
+  width: 38px;
+  height: 38px;
+  position: relative !important;
+  background-color: transparent !important;
+}
+
+.markerFlow-avatar > img {
+  position: absolute !important;
+  top: 3px;
+  left: 9px;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 23px !important;
+  max-width: 23px !important;
+  border-radius: 50% !important;
+  background-color: transparent !important;
+}
+
+.markerFlow-avatar> p {
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-top: 2px;
+  font-weight: 700;
+  color: #45309b;
+  background-color: transparent !important;
+}
+
+
+.markerFlow-pointer-none{
+  pointer-events: none;
+}
+

@@ -1,0 +1,1 @@
+(()=>{"use strict";chrome.action.onClicked.addListener((e=>{chrome.tabs.query({active:!0,currentWindow:!0},(function(e){const s=e[0];s.id&&chrome.tabs.sendMessage(s.id,{message:"toggle_sidebar"})}))}))})();

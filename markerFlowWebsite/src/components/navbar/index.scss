@@ -1,0 +1,15 @@
+.navbar {
+  backdrop-filter: saturate(200%) blur(1.875rem);
+  background-color: #fffc !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid #cfcdcd;
+  padding: 0 8px !important;
+  line-height: 48px !important;
+  height: 48px !important;
+
+
+}

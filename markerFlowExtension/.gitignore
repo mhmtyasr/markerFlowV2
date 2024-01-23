@@ -1,0 +1,9 @@
+npm-debug.log
+node_modules/*
+dist/*
+tmp/
+!dist/background.js
+!node_modules/leader-line-new
+!node_modules/pick-dom-element
+package-lock.json
+.env
